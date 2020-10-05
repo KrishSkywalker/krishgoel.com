@@ -1,0 +1,195 @@
+/* Font imports */
+@font-face {
+	font-family: Gilroy;
+	src: url("fonts/Gilroy-ExtraBold.ttf");
+}
+
+body {
+	font-family: Lato;
+	margin: 0;
+	padding: 0;
+  background-color: rgb(250, 250, 250);
+  color: #3a3a3a;
+}
+
+.width-restriction {
+  width: 85%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Font sizing */
+h1, h1 a {
+	font-size: calc(1.355rem + 1.26vw);
+	font-family: Gilroy;
+}
+
+@media (min-width: 1200px) {
+  h1, h1 a {
+	  font-size: 2.3rem;
+  }
+}
+
+h2, h2 a {
+  font-size: calc(1.295rem + 0.54vw);
+}
+
+@media (min-width: 1200px) {
+  h2, h2 a {
+    font-size: 1.7rem;
+  }
+}
+
+h3, h3 a {
+  font-size: calc(1.275rem + 0.3vw);
+}
+
+@media (min-width: 1200px) {
+  h3, h3 a {
+    font-size: 1.5rem;
+  }
+}
+
+h4, h4 a {
+  font-size: 1.2rem;
+}
+
+h5, h5 a {
+  font-size: 0.9rem;
+}
+
+h6, h6 a {
+  font-size: 1rem;
+}
+
+p, p a {
+	font-size: 1rem;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+p a {
+	font-weight: bold
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.mono {
+  font-family: Space Mono;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Gradients defined */
+.gradient {
+  width: 80%;
+  height: 7px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.yellow-orange {
+  background-image: linear-gradient(90deg, #fad961 0%, #ffb042 100%);
+}
+.orange-purple {
+  background-image: linear-gradient(90deg, #ffb042 0%, #e046de 100%);
+}
+.purple-blue {
+  background-image: linear-gradient(90deg, #e046de 0%, #52a0ff 100%);
+}
+.blue-fusia {
+  background-image: linear-gradient(90deg, #52a0ff 0%, #ff4ab4 100%);
+}
+.fusia-yellow {
+  background-image: linear-gradient(90deg, #ff4ab4 0%, #fff34a 100%);
+}
+.yellow-cyan {
+  background-image: linear-gradient(90deg, #fff34a 0%, #0df5ff 100%);
+}
+.blue-green {
+  background-image: linear-gradient(90deg, #0df5ff 0%, #48f583 100%);
+}
+
+/* Column definition */
+.col-container {
+  display: flex;
+  width: 100%
+}
+.col-2 {
+  flex: 50%;
+  text-align: left
+}
+.col-4 {
+  flex: 25%;
+  text-align: left
+}
+
+/* Card styling */
+.card {
+  width: 95%;
+  border-radius: 10px;
+  transition: 0.2s;
+  border: none;
+  padding: 30px 0px;
+  margin: 0 auto;
+  margin-top: 30px;
+  /* margin-right: 20px; */
+  background-color: #ffffff;
+  box-shadow: 7px 7px 21px -10px rgba(153,153,153,0.89);
+}
+.card h2 {
+  font-family: Gilroy
+}
+.card h6 {
+  margin: 10px 0px;
+  font-family: Lato;
+  font-size: 0.9rem;
+}
+.card p {
+  line-height: 23px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.card a, .card p a {
+  color: #3a3a3a
+}
+.card .tags {
+  display: inline-block;
+  cursor: default;
+}
+.card .tags .tag {
+  display: inline-block;
+  padding: 0px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 7px;
+  transition: 0.2s;
+  background-color: rgba(0,0,0,0.03);
+  border: 2px solid rgba(0,0,0,0.1)
+}
+.card .tags .tag p {
+  font-size: 0.7rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card h4 {
+  font-family: Lato;
+}
