@@ -15,6 +15,7 @@
         }
     }
 
+        
     .card .progress-bar-container {
         width: 100%;
         border-radius: 10px;
@@ -51,7 +52,7 @@
     let repertoireCards = [
 		{
             title: "Artificial Intelligence", 
-            pretext: "I am currently learning to teach the machines to think {} with this Udemy course.",
+            pretext: "I am currently learning to teach the machines to think with <a href='https://www.udemy.com/artificial-intelligence-az'>this Udemy course</a>.",
             completion: 10
         },
         {
@@ -81,7 +82,7 @@
         },
         {
             title: "Node.JS",
-            pretext: "I am fluent in Node.JS and I'm currently learning backend with Node.JS and MongoDB with this Udemy course.",
+            pretext: "I am fluent in Node.JS and I'm currently learning backend with Node.JS and MongoDB with<a href='https://www.udemy.com/course/complete-back-end-development-with-nodejs-projects/'>this Udemy course</a>.",
             completion: 50
         },
         {
@@ -101,7 +102,7 @@
             <div class="card">
                 <div class="width-restriction">
                     <h2>{repertoire.title}</h2>
-                    <p>{repertoire.pretext}</p>
+                    <p>{@html repertoire.pretext}</p>
                     <div class="progress-bar-container">
                         <div class="progress-bar blue-green" style="width: {repertoire.completion}%"></div>
                     </div>
@@ -120,7 +121,7 @@
                             <div class="card">
                                 <div class="width-restriction">
                                     <h2>{repertoire.title}</h2>
-                                    <p>{repertoire.pretext}</p>
+                                    <p>{@html repertoire.pretext}</p>
                                     <div class="progress-bar-container">
                                         <div class="progress-bar blue-green" style="width: {repertoire.completion}%"></div>
                                     </div>
@@ -143,7 +144,7 @@
                             <div class="card">
                                 <div class="width-restriction">
                                     <h2>{repertoire.title}</h2>
-                                    <p>{repertoire.pretext}</p>
+                                    <p>{@html repertoire.pretext}</p>
                                     <div class="progress-bar-container">
                                         <div class="progress-bar blue-green" style="width: {repertoire.completion}%"></div>
                                     </div>

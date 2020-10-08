@@ -332,4 +332,7 @@
     </div>
     <br>
     <br>
+    <p>You can check out all of my projects 
+        <a class="mono" href="/projects">@/projects</a>
+    </p>
 </div>

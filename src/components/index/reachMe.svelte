@@ -10,12 +10,17 @@
         }
     }
 
+    .card a {
+        padding-bottom: 10px;
+        border-bottom: 1.5px solid #ffffff;
+        transition: 0.2s
+    }
     .card .social-media-links a {
         /* display: inline-block; */
         padding: 0px 5px;
         padding-bottom: 10px;
-        margin-top: 15px;
         border-bottom: 1.5px solid #ffffff;
+        margin-top: 15px;
         transition: 0.2s;
         display: -webkit-box;
         display: flex;
@@ -25,7 +30,7 @@
         align-items: center;
         display: inline-block;
     }
-    .card .social-media-links a:hover {
+    .card a:hover {
         border-bottom: 1.5px solid #3a3a3a;
     }
     .card .social-media-links img {
@@ -48,10 +53,10 @@
     :global(body.dark-mode) .card a {
         color: #ffffff
     }
-    :global(body.dark-mode) .card .social-media-links a {
+    :global(body.dark-mode) .card a {
         border-bottom-color: #000000;
     }
-    :global(body.dark-mode) .card .social-media-links a:hover {
+    :global(body.dark-mode) .card a:hover {
         border-bottom-color: #ffffff;
     }
     :global(body.dark-mode) .card .social-media-links a #github-dark {
@@ -110,9 +115,17 @@
             </div>
         </div>
         <div class="gradient yellow-cyan"></div>
-        <p class="center bold">May the force be with you!<br><br>
-            Made with ❤️ and some code
-        </p>
+        <div class="card">
+            <div class="width-restriction">
+                <p class="center bold">May the force be with you!<br><br>
+                    Made with ❤️ and some code
+                </p>
+                <p class="center">
+                    <a href="/thanks">Thanks</a> / 
+                    <a href="/lads">Lads</a>
+                </p>
+            </div>
+        </div>
     </div>
 
     <div class="large-screen">
@@ -162,9 +175,18 @@
                     </div>
                 </div>
                 <div class="gradient yellow-cyan"></div>
-                <p class="center bold">May the force be with you!<br><br>
-                    Made with ❤️ and some code
-                </p>
+                <div class="card">
+                    <div class="width-restriction">
+                        <p class="center bold">May the force be with you!<br><br>
+                            Made with ❤️ and some code
+                        </p>
+                        <br>
+                        <p class="center">
+                            <a href="/thanks.txt" style="font-weight: 400">🙏 Thanks</a> &nbsp; / &nbsp; 
+                            <a href="/lads.txt" style="font-weight: 400">👊 Lads</a>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
