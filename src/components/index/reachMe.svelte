@@ -78,32 +78,32 @@
                 <p>Feel free to hit me up on any of these platforms</p>
                 <div class="social-media-links">
                     <a href="https://github.com/KrishSkwalker">
-                        <img src="images/icons/github.svg" id="github-dark">
-                        <img src="images/icons/github-light.svg" id="github-light">
+                        <img src="images/social-icons/github.svg" id="github-dark">
+                        <img src="images/social-icons/github-light.svg" id="github-light">
                         Github
                     </a>
                     <a href="https://instagram.com/krishskywalker7">
-                        <img src="images/icons/instagram.svg">
+                        <img src="images/social-icons/instagram.svg">
                         Instagram
                     </a>
                     <a href="https://twitter.com/KrishSkywalker7">
-                        <img src="images/icons/twitter.svg">
+                        <img src="images/social-icons/twitter.svg">
                         Twitter
                     </a>
                     <a href="mailto: krishgoel3@gmail.com">
-                        <img src="images/icons/gmail.svg">
+                        <img src="images/social-icons/gmail.svg">
                         Mail
                     </a>
                     <a href="https://www.linkedin.com/in/krish-goel-88793a1a8/">
-                        <img src="images/icons/linkedin.svg">
+                        <img src="images/social-icons/linkedin.svg">
                         LinkedIn
                     </a>
                     <a href="https://open.spotify.com/user/39emqovi90p90iq1sfbczkan0?si=-pd9Nq4KR4GNb5pqU5afig">
-                        <img src="images/icons/spotify.svg">
+                        <img src="images/social-icons/spotify.svg">
                         Spotify
                     </a>
                     <a href="https://www.reddit.com/user/KrishSkywalker">
-                        <img src="images/icons/reddit.svg">
+                        <img src="images/social-icons/reddit.svg">
                         Reddit
                     </a>
                 </div>
@@ -130,32 +130,32 @@
                         <p>Feel free to hit me up on any of these platforms</p>
                         <div class="social-media-links">
                             <a href="https://github.com/KrishSkwalker">
-                                <img src="images/icons/github.svg" id="github-dark">
-                                <img src="images/icons/github-light.svg" id="github-light">
+                                <img src="images/social-icons/github.svg" id="github-dark">
+                                <img src="images/social-icons/github-light.svg" id="github-light">
                                 Github
                             </a>
                             <a href="https://instagram.com/krishskywalker7">
-                                <img src="images/icons/instagram.svg">
+                                <img src="images/social-icons/instagram.svg">
                                 Instagram
                             </a>
                             <a href="https://twitter.com/KrishSkywalker7">
-                                <img src="images/icons/twitter.svg">
+                                <img src="images/social-icons/twitter.svg">
                                 Twitter
                             </a>
                             <a href="mailto: krishgoel3@gmail.com">
-                                <img src="images/icons/gmail.svg">
+                                <img src="images/social-icons/gmail.svg">
                                 Mail
                             </a>
                             <a href="https://www.linkedin.com/in/krish-goel-88793a1a8/">
-                                <img src="images/icons/linkedin.svg">
+                                <img src="images/social-icons/linkedin.svg">
                                 LinkedIn
                             </a>
                             <a href="https://open.spotify.com/user/39emqovi90p90iq1sfbczkan0?si=-pd9Nq4KR4GNb5pqU5afig">
-                                <img src="images/icons/spotify.svg">
+                                <img src="images/social-icons/spotify.svg">
                                 Spotify
                             </a>
                             <a href="https://www.reddit.com/user/KrishSkywalker">
-                                <img src="images/icons/reddit.svg">
+                                <img src="images/social-icons/reddit.svg">
                                 Reddit
                             </a>
                         </div>

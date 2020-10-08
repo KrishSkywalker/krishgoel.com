@@ -135,6 +135,10 @@
 	];
 </script>
 
+<svelte:head>
+	<title>Projects | krishgoel.com</title>
+</svelte:head>
+
 <Topnav />
 <br><br><br><br><br><br>
 

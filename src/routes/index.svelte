@@ -10,9 +10,9 @@
 
 <style></style>
 
-<!-- <svelte:head>
-	<title>Sapper project template</title>
-</svelte:head> -->
+<svelte:head>
+	<title>Krish Goel | KrishSkywalker</title>
+</svelte:head>
 
 <Topnav />
 <Intro />
