@@ -58,6 +58,13 @@
     let arrayOfFour = [0, 1, 2, 3];
     let experienceCards = [
 		{
+            title: "India's Super Brain", 
+            subhead: "September 2020",
+            pretext: "I completed the India's Super Brain event, a 4 week long workshop-cum-challenge. The idea was to teach a new language each week, from ReactJS and DBM to cybersecurity and Machine Learning. It gave me a good intro to all these subdomains.",
+            linkText: "",
+            url: ""
+        },
+        {
             title: "Pitch @ MINET X", 
             subhead: "🏆 Placed #2 | September 2020",
             pretext: "Amartya, Kataria and I worked on an online education startup for what can essentially be called a fancy hackathon and bagged the 2nd position. This is personally my favourite dub because this was practically my last interschool IT event and it couldn't have been better.",

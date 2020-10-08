@@ -129,6 +129,62 @@
             },
             linkText: "📁 Documentation",
             url: ""
+        },
+        {
+            imageID: "binary-box",
+            title: "Binary Box",
+            date: "September 2019",
+            type: "🚀 Concept Documentation",
+            pretext: "A subscription-based STEM Kits delivery service model that Kartik Gupta and I developed for an IT event.",
+            tags: {
+                tag1: "STEM",
+                tag2: "Startup Idea",
+                tag3: "Subscription Model"
+            },
+            linkText: "📁 Documentation",
+            url: "/projects/binaryBox"
+        },
+        {
+            imageID: "alexation",
+            title: "Alexation",
+            date: "June 2019",
+            type: "👍 Completed",
+            pretext: "Not very original, but this project eliminated the need of a central Alexa hub by creating an ecosystem using NodeMCU. It brings down the cost of automation from $20 to $3 per device.",
+            tags: {
+                tag1: "NodeMCU",
+                tag2: "IoT",
+                tag3: "Home Automation"
+            },
+            linkText: "💻 Github Repository",
+            url: "https://github.com/KrishSkywalker/Alexation"
+        },
+        {
+            imageID: "",
+            title: "Arduino Drumpads",
+            date: "August 2017",
+            type: "👍 Completed",
+            pretext: "I designed e-drums while eliminating the MIDI and laptop requirements that require close to none setup and make it more cost-effective",
+            tags: {
+                tag1: "Arduino",
+                tag2: "MIDI",
+                tag3: "EDM"
+            },
+            linkText: "💻 Github Repository",
+            url: "https://github.com/KrishSkywalker/ArduinoDrumPads"
+        },
+        {
+            imageID: "",
+            title: "Anet A8 3D Printer",
+            date: "December 2016",
+            type: "👍 Completed",
+            pretext: "I designed and assembled this Anet A8 inspired 3D printer with a 0.5mm X-Y-Z slicing precision and 22cm cube printing volume.",
+            tags: {
+                tag1: "3D Printing",
+                tag2: "Hardware",
+                tag3: ""
+            },
+            linkText: "",
+            url: ""
         }
 	];
 </script>
@@ -140,26 +196,38 @@
 	<div class="small-screen">
 		{#each projectCards as project, index}
 		<div class="card">
-			<img src="images/projects/{project.imageID}.png">
+            {#if project.imageID != ""}
+                <img src="images/projects/{project.imageID}.png">
+            {:else}
+                <br>
+            {/if}
 			<div class="width-restriction">
 				<h2>{project.title}</h2>
 				<h5 class="mono">{project.date}</h5>
 				<h6>{project.type}</h6>
 				<p>{project.pretext}</p>
 				<div class="tags">
-					<div class="tag">
-						<p>{project.tags.tag1}</p>
-					</div>
-					<div class="tag">
-						<p>{project.tags.tag2}</p>
-					</div>
-					<div class="tag">
-						<p>{project.tags.tag3}</p>
-					</div>
+                    {#if project.tags.tag1 != ""}
+                        <div class="tag">
+                            <p>{project.tags.tag1}</p>
+                        </div>
+                    {/if}
+					{#if project.tags.tag2 != ""}
+                        <div class="tag">
+                            <p>{project.tags.tag2}</p>
+                        </div>
+                    {/if}
+                    {#if project.tags.tag3 != ""}
+                        <div class="tag">
+                            <p>{project.tags.tag3}</p>
+                        </div>
+                    {/if}
 				</div>
-				<br>
-				<br>
-				<a href={project.url}>{project.linkText}</a>
+                {#if project.linkText != ""}
+                    <br>
+                    <br>
+                    <a href={project.url}>{project.linkText}</a>
+                {/if}
 			</div>
 		</div>
 		{/each}
@@ -173,26 +241,38 @@
                     {#each projectCards as project, index}
                         {#if index%2 == i}
                             <div class="card">                            
-                                <img src="images/projects/{project.imageID}.png">
+                                {#if project.imageID != ""}
+                                    <img src="images/projects/{project.imageID}.png">
+                                {:else}
+                                    <br>
+                                {/if}
                                 <div class="width-restriction">
                                     <h2>{project.title}</h2>
                                     <h5 class="mono">{project.date}</h5>
                                     <h6>{project.type}</h6>
                                     <p>{project.pretext}</p>
                                     <div class="tags">
-                                        <div class="tag">
-                                            <p>{project.tags.tag1}</p>
-                                        </div>
-                                        <div class="tag">
-                                            <p>{project.tags.tag2}</p>
-                                        </div>
-                                        <div class="tag">
-                                            <p>{project.tags.tag3}</p>
-                                        </div>
+                                        {#if project.tags.tag1 != ""}
+                                            <div class="tag">
+                                                <p>{project.tags.tag1}</p>
+                                            </div>
+                                        {/if}
+                                        {#if project.tags.tag2 != ""}
+                                            <div class="tag">
+                                                <p>{project.tags.tag2}</p>
+                                            </div>
+                                        {/if}
+                                        {#if project.tags.tag3 != ""}
+                                            <div class="tag">
+                                                <p>{project.tags.tag3}</p>
+                                            </div>
+                                        {/if}
                                     </div>
-                                    <br>
-                                    <br>
-                                    <a href={project.url}>{project.linkText}</a>
+                                    {#if project.linkText != ""}
+                                        <br>
+                                        <br>
+                                        <a href={project.url}>{project.linkText}</a>
+                                    {/if}
                                 </div>
                             </div>
                         {/if}
@@ -210,26 +290,38 @@
                     {#each projectCards as project, index}
                         {#if index%4 == i}
                             <div class="card">                            
-                                <img src="images/projects/{project.imageID}.png">
+                                {#if project.imageID != ""}
+                                    <img src="images/projects/{project.imageID}.png">
+                                {:else}
+                                    <br>
+                                {/if}
                                 <div class="width-restriction">
                                     <h2>{project.title}</h2>
                                     <h5 class="mono">{project.date}</h5>
                                     <h6>{project.type}</h6>
                                     <p>{project.pretext}</p>
                                     <div class="tags">
-                                        <div class="tag">
-                                            <p>{project.tags.tag1}</p>
-                                        </div>
-                                        <div class="tag">
-                                            <p>{project.tags.tag2}</p>
-                                        </div>
-                                        <div class="tag">
-                                            <p>{project.tags.tag3}</p>
-                                        </div>
+                                        {#if project.tags.tag1 != ""}
+                                            <div class="tag">
+                                                <p>{project.tags.tag1}</p>
+                                            </div>
+                                        {/if}
+                                        {#if project.tags.tag2 != ""}
+                                            <div class="tag">
+                                                <p>{project.tags.tag2}</p>
+                                            </div>
+                                        {/if}
+                                        {#if project.tags.tag3 != ""}
+                                            <div class="tag">
+                                                <p>{project.tags.tag3}</p>
+                                            </div>
+                                        {/if}
                                     </div>
-                                    <br>
-                                    <br>
-                                    <a href={project.url}>{project.linkText}</a>
+                                    {#if project.linkText != ""}
+                                        <br>
+                                        <br>
+                                        <a href={project.url}>{project.linkText}</a>
+                                    {/if}
                                 </div>
                             </div>
                         {/if}
@@ -239,9 +331,5 @@
         </div>
     </div>
     <br>
-    <br>
-    <p>
-        Check out all of my projects <a href="/projects">here</a>.
-    </p>
     <br>
 </div>
