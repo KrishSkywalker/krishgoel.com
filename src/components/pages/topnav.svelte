@@ -1,6 +1,4 @@
 <script>
-	import * as animateScroll from "svelte-scrollto";
-
 	let darkMode = false;
 	function themeToggle() {
         darkMode = !darkMode;
@@ -83,11 +81,12 @@
 				{/if}
 			</a>
 			<!-- Navigation links -->
-			<a on:click={() => animateScroll.scrollTo({element: '#blog', offset: -100})}>📝 Blog</a>
-			<a on:click={() => animateScroll.scrollTo({element: '#projects', offset: -100})}>🌐 Projects</a>
-			<a on:click={() => animateScroll.scrollTo({element: '#repertoire', offset: -100})}>📄 Repertoire</a>
-			<a on:click={() => animateScroll.scrollTo({element: '#experience', offset: -100})}>🎯 Experience</a>
-			<a on:click={() => animateScroll.scrollTo({element: '#reachMe', offset: -100})}>☎️ Reach me</a>
+			<a href="/">🏠 Home</a>
+			<a href="/blog">📝 Blog</a>
+			<a href="/projects">🌐 Projects</a>
+			<a href="/#repertoire">📄 Repertoire</a>
+			<a href="/#experience">🎯 Experience</a>
+			<a href="/#reachMe">☎️ Reach me</a>
 		</div>
 	</div>
 </nav>

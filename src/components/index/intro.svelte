@@ -24,14 +24,26 @@
         background-color: #fafafa88;
     }
     mark a {
-		color: #3a3a3a
+		color: #3a4a4a;
+        border-bottom: 1.5px solid #ffffff;
+        transition: 0.2s;
+        padding-bottom: 5px;
+        font-size: 0.9rem
     }
+    mark a:hover {
+        border-bottom-color: #3a3a3a;
+    }
+
     :global(body.dark-mode) mark {
         background-color: #3a3a3a88;
         color: #ffffff;
 	}
 	:global(body.dark-mode) mark a {
-		color: #ffffff
+		color: #ffffff;
+        border-bottom-color: #3a3a3a;
+    }
+    :global(body.dark-mode) mark a:hover {
+        border-bottom-color: #ffffff;
 	}
 </style>
 

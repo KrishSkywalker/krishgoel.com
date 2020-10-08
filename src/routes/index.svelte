@@ -16,14 +16,14 @@
 
 <Topnav />
 <Intro />
-<div class="gradient yellow-orange"></div>
+<div class="gradient yellow-orange" id="blog"></div>
 <Blog />
-<div class="gradient orange-purple"></div>
+<div class="gradient orange-purple" id="projects"></div>
 <Projects />
-<div class="gradient purple-blue"></div>
+<div class="gradient purple-blue" id="repertoire"></div>
 <Repertoire />
-<div class="gradient blue-fusia"></div>
+<div class="gradient blue-fusia" id="experience"></div>
 <Experience />
-<div class="gradient fusia-yellow"></div>
+<div class="gradient fusia-yellow" id="reachMe"></div>
 <ReachMe />
 <br><br><br><br><br>

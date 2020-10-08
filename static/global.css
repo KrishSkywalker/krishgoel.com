@@ -63,7 +63,7 @@ h6, h6 a {
 }
 
 p, p a {
-	font-size: 1rem;
+	font-size: 0.93rem;
 	margin-top: 0;
 	margin-bottom: 0;
 }
@@ -79,6 +79,11 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
 	text-decoration: none;
+}
+
+::selection {
+  background-color: rgb(255, 0, 140);
+  color: #ffffff;
 }
 
 .mono {

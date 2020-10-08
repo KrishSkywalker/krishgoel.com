@@ -50,46 +50,44 @@
     let arrayOfFour = [0, 1, 2, 3];
     let repertoireCards = [
 		{
-            title: "1 The Gyaan Academy", 
-            pretext: "Amartya, Kataria and I built this startup idea ground up in 72 hours for an interschool IT event. The idea is an 'Online School' with smart features including building a network.",
-            completion: 20,
-            linkText: "📁 Documentation",
-            url: ""
+            title: "Artificial Intelligence", 
+            pretext: "I am currently learning to teach the machines to think {} with this Udemy course.",
+            completion: 10
         },
         {
-            title: "2 The Gyaan Academy", 
-            pretext: "Amartya, Kataria and I built this startup idea ground up in 72 hours for an interschool IT event. The idea is an 'Online School' with smart features including building a network.",
-            completion: 78,
-            linkText: "📁 Documentation",
-            url: ""
+            title: "Python", 
+            pretext: "Being my first programming language, Python has always been my go-to for competitive programming and quick-dev.",
+            completion: 40
         },
         {
-            title: "3 The Gyaan Academy", 
-            pretext: "Amartya, Kataria and I built this startup idea ground up in 72 hours for an interschool IT event. The idea is an 'Online School' with smart features including building a network.",
-            completion: 78,
-            linkText: "📁 Documentation",
-            url: ""
+            title: "Structural Web Dev", 
+            pretext: "Web development being my forte, I am adept at working with web langauges including Pug and Stylus.",
+            completion: 100
         },
         {
-            title: "4 The Gyaan Academy", 
-            pretext: "Amartya, Kataria and I built this startup idea ground up in 72 hours for an interschool IT event. The idea is an 'Online School' with smart features including building a network.",
-            completion: 78,
-            linkText: "📁 Documentation",
-            url: ""
+            title: "IoT and automation", 
+            pretext: "I have developed home automation solutions with Alexa and worked with an IT startup that aimed at developing an IoT ecosystem of luxury products.",
+            completion: 30
         },
         {
-            title: "5 The Gyaan Academy", 
-            pretext: "Amartya, Kataria and I built this startup idea ground up in 72 hours for an interschool IT event. The idea is an 'Online School' with smart features including building a network.",
-            completion: 78,
-            linkText: "📁 Documentation",
-            url: ""
+            title: "JavaScript and frameworks", 
+            pretext: "I am well versed with JavaScript, JQuery and TypeScript, not much to say here. Though it's worth mentioning, I can work in a myriad of frameworks including Svelte, VueJS and ReactJS",
+            completion: 60
         },
         {
-            title: "6 The Gyaan Academy", 
-            pretext: "Amartya, Kataria and I built this startup idea ground up in 72 hours for an interschool IT event. The idea is an 'Online School' with smart features including building a network.",
-            completion: 78,
-            linkText: "📁 Documentation",
-            url: ""
+            title: "Hardware and robotics",
+            pretext: "I can work with Arduinos, TI Launchpads and a myriad of sensors to make basic robots, I acquired most of this know-how while interning in an IoT startup.",
+            completion: 30
+        },
+        {
+            title: "Node.JS",
+            pretext: "I am fluent in Node.JS and I'm currently learning backend with Node.JS and MongoDB with this Udemy course.",
+            completion: 50
+        },
+        {
+            title: "C++",
+            pretext: "I am a real dum dum when it comes to C++ mostly because I have only used it for scripting the hardware and robots that I build.",
+            completion: 10
         }
 	];
 </script>

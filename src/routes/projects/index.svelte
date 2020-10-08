@@ -71,6 +71,8 @@
 </style>
 
 <script>
+    import Topnav from '../../components/pages/topnav.svelte';
+
     let arrayOfTwo = [0,1];
     let arrayOfFour = [0, 1, 2, 3];
     let projectCards = [
@@ -133,8 +135,12 @@
 	];
 </script>
 
+<Topnav />
+<br><br><br><br><br><br>
+
 <div class="width-restriction">
-    <h1 class="mono">🌐 Featured Projects</h1>
+    <h1 class="mono">All of my projects</h1>
+    <p>🌐 A list of all the projects I have completed so far</p>
     
 	<!-- Mobile Screen Layout -->
 	<div class="small-screen">
@@ -239,9 +245,5 @@
         </div>
     </div>
     <br>
-    <br>
-    <p>
-        Check out all of my projects <a href="/projects">here</a>.
-    </p>
     <br>
 </div>

@@ -9,6 +9,18 @@
             display: none
         }
     }
+
+    .card a {
+        border-bottom: 1.5px solid #ffffff;
+        transition: 0.2s;
+        padding-bottom: 5px;
+        font-size: 0.9rem;
+        font-weight: 400
+    }
+    .card a:hover {
+        border-bottom-color: #3a3a3a;
+    }
+
     :global(body.dark-mode) .card {
         background-color: #000000;
         box-shadow: rgba(36, 36, 36, 0.89) 7px 7px 21px -10px;
@@ -20,10 +32,18 @@
     :global(body.dark-mode) .card p a{
         color: #ffffff
     }
+    :global(body.dark-mode) .card a {
+        color: #ffffff;
+        border-bottom-color: #000000;
+    }
+    :global(body.dark-mode) .card a:hover {
+        border-bottom-color: #ffffff;
+    }
 </style>
 
 <script>
     let arrayOfTwo = [0, 1];
+    // let products = JSON.parse(fs.readFileSync('data/products.json', 'utf8'));
     let blogCards = [
 		{
             title: "My notes from 'The $100 Startup'", 
@@ -34,7 +54,7 @@
                 tag2: "Quick business deployment",
                 tag3: "Scaling"
             },
-            linkText: "Hold up m8",
+            linkText: "🕓 Hold up m8",
             url: ""
         },
         {
@@ -46,19 +66,7 @@
                 tag2: "The 10-year goal",
                 tag3: "Startup"
             },
-            linkText: "Again, hol' up bro",
-            url: ""
-        },
-        {
-            title: "Where I think I am headed", 
-            status: "Coming soon",
-            pretext: "I have always had different outlook of my future since my early childhood from being an astronaut and living inside a spaceshuttle to spend all of my dad's money and not do anything. This post talks about all of it and what I wanna do now.",
-            tags: {
-                tag1: "Business automation",
-                tag2: "The 10-year goal",
-                tag3: "Startup"
-            },
-            linkText: "Again, hol' up bro",
+            linkText: "🕓 Again, hol' up bro",
             url: ""
         }
 	];
