@@ -71,7 +71,7 @@
 </style>
 
 <script>
-    import Topnav from '../../components/pages/topnav.svelte';
+    import Topnav from '../../components/common/topnav.svelte';
 
     let arrayOfTwo = [0,1];
     let arrayOfFour = [0, 1, 2, 3];
@@ -88,7 +88,7 @@
                 tag3: "Future"
             },
             linkText: "📁 Documentation",
-            url: ""
+            url: "/projects/gyaanacademy"
         },
         {
             imageID: "vkyd",
@@ -102,7 +102,7 @@
                 tag3: "Social commerce"
             },
             linkText: "🌐 Website",
-            url: ""
+            url: "http://vkyd.in"
         },
         {
             imageID: "eyena",
@@ -116,7 +116,7 @@
                 tag3: "Hardware dev"
             },
             linkText: "📁 Documentation",
-            url: ""
+            url: "/projects/eyena"
         },
         {
             imageID: "",
@@ -144,7 +144,7 @@
                 tag3: "Idea pitch"
             },
             linkText: "📁 Documentation",
-            url: ""
+            url: "/projects/lunatix"
         },
         {
             imageID: "binary-box",

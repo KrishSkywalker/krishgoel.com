@@ -1,5 +1,5 @@
 <script>
-	import Topnav from '../components/index/topnav.svelte';
+	import Topnav from '../components/common/topnav.svelte';
 	import Intro from '../components/index/intro.svelte';
 	import Blog from '../components/index/blog.svelte';
 	import Projects from '../components/index/projects.svelte';
@@ -23,7 +23,7 @@
 <div class="gradient purple-blue" id="repertoire"></div>
 <Repertoire />
 <div class="gradient blue-fusia" id="experience"></div>
-<Experience />
-<div class="gradient fusia-yellow" id="reachMe"></div>
+<!-- <Experience /> -->
+<!-- <div class="gradient fusia-yellow" id="reachMe"></div> -->
 <ReachMe />
 <br><br><br><br><br>

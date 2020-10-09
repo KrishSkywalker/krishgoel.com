@@ -1,4 +1,6 @@
 <script>
+	import * as animateScroll from "svelte-scrollto";
+
 	let darkMode = false;
 	function themeToggle() {
         darkMode = !darkMode;
@@ -70,7 +72,9 @@
 
 <nav>
 	<div class="width-restriction">
-		<h1 id="logo">KRISH GOEL</h1>
+		<a href="/">
+			<h1 id="logo">KRISH GOEL</h1>
+		</a>
 		<div class="topnav-links">
 			<!-- Colour scheme change tings -->
 			<a id="theme-toggle" on:click={themeToggle}>
@@ -81,12 +85,16 @@
 				{/if}
 			</a>
 			<!-- Navigation links -->
-			<a href="/">🏠 Home</a>
-			<a href="/blog">📝 Blog</a>
+			<a href="/blog">✏️ Blog</a>
 			<a href="/projects">🌐 Projects</a>
 			<a href="/#repertoire">📄 Repertoire</a>
-			<a href="/#experience">🎯 Experience</a>
+			<a href="/experience">🎯 Experience</a>
 			<a href="/#reachMe">☎️ Reach me</a>
+			<!-- <a on:click={() => animateScroll.scrollTo({element: '#blog', offset: -100})}>📝 Blog</a>
+			<a on:click={() => animateScroll.scrollTo({element: '#projects', offset: -100})}>🌐 Projects</a>
+			<a on:click={() => animateScroll.scrollTo({element: '#repertoire', offset: -100})}>📄 Repertoire</a>
+			<a on:click={() => animateScroll.scrollTo({element: '#experience', offset: -100})}>🎯 Experience</a>
+			<a on:click={() => animateScroll.scrollTo({element: '#reachMe', offset: -100})}>☎️ Reach me</a> -->
 		</div>
 	</div>
 </nav>

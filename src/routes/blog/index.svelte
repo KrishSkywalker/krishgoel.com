@@ -42,7 +42,7 @@
 </style>
 
 <script>
-    import Topnav from '../../components/pages/topnav.svelte';
+    import Topnav from '../../components/common/topnav.svelte';
 
     let arrayOfTwo = [0, 1];
     // let products = JSON.parse(fs.readFileSync('data/products.json', 'utf8'));
@@ -74,13 +74,16 @@
 	];
 </script>
 
+<svelte:head>
+	<title>Blog | krishgoel.com</title>
+</svelte:head>
 
 <Topnav />
 <br><br><br><br><br><br>
 
 <div class="width-restriction">
     <h1 class="mono">web.log(views)</h1>
-    <p>📝 There's legit nothing here right now. Man, I have to give the JEE, I'll hopefully write something cool when and if I get into a college (so most prolly never).</p>
+    <p>✏️ There's legit nothing here right now. Man, I have to give the JEE, I'll hopefully write something cool when and if I get into a college (so most prolly never).</p>
     <!-- Mobile Screen Layout -->
     <div class="small-screen">
         {#each blogCards as card, index}

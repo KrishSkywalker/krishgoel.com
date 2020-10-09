@@ -65,7 +65,7 @@
                     Bricolage is my thing and I spent my last 2 summers teaching younger students the intricacies of coding. Looking at the bigger picture, I aspire to develop ‘smarter’ energy sources and solve global-ecological problems with the lines I type.
                     <br/>
                     <br/>
-                    I am currently reading <a href="https://www.goodreads.com/book/show/12605157-the-100-startup">The $100 Startup by Chris Guillebeau</a>.
+                    I recently found my passion in entrepreneurship and I'm currently reading <a href="https://www.goodreads.com/book/show/12605157-the-100-startup">The $100 Startup by Chris Guillebeau</a>.
                 </mark>
         </div>
     </div>

@@ -88,7 +88,7 @@
     <div class="small-screen">
         <div class="card" style="background-color: #000000">
             <div class="width-restriction">
-                <iframe class="spotify" src="https://open.spotify.com/embed/playlist/26Dig7gzJrw1Cqm8sgHI5f" width="100%" height="500px" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <!-- <iframe class="spotify" src="https://open.spotify.com/embed/playlist/26Dig7gzJrw1Cqm8sgHI5f" width="100%" height="500px" frameborder="0" allowtransparency="true" allow="encrypted-media" style="border-radius: 10px"></iframe> -->
             </div>
         </div>
         <div class="card">
@@ -127,13 +127,16 @@
                 </div>
             </div>
         </div>
-        <div class="gradient yellow-cyan"></div>
+        <!-- <div class="gradient yellow-cyan"></div> -->
+        <div class="gradient fusia-yellow" id="reachMe"></div>
         <p class="center bold">May the force be with you!<br><br>
             Made with ❤️ and some code
         </p>
+        <br>
         <p class="center">
-            <a href="/thanks.txt">Thanks</a> / 
-            <a href="/lads.txt">Lads</a>
+            <a href="/thanks.txt" style="font-weight: 400">🙏 Thanks</a> &nbsp; / &nbsp; 
+            <a href="/lads.txt" style="font-weight: 400">👊 Lads</a> &nbsp; / &nbsp; 
+            <a href="/lads.txt" style="font-weight: 400">✏️ Notes</a>
         </p>
     </div>
 
@@ -142,7 +145,7 @@
             <div class="col-2">
                 <div class="card" style="background-color: #000000">
                     <div class="width-restriction">
-                        <iframe class="spotify" src="https://open.spotify.com/embed/playlist/26Dig7gzJrw1Cqm8sgHI5f" width="100%" height="500px" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                        <!-- <iframe class="spotify" src="https://open.spotify.com/embed/playlist/26Dig7gzJrw1Cqm8sgHI5f" width="100%" height="500px" frameborder="0" allowtransparency="true" allow="encrypted-media" style="border-radius: 10px"></iframe> -->
                     </div>
                 </div>
             </div>
@@ -183,14 +186,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="gradient yellow-cyan"></div>
+                <!-- <div class="gradient yellow-cyan"></div> -->
+                <div class="gradient fusia-yellow" id="reachMe"></div>
                 <p class="center bold">May the force be with you!<br><br>
                     Made with ❤️ and some code
                 </p>
                 <br>
                 <p class="center">
                     <a href="/thanks.txt" style="font-weight: 400">🙏 Thanks</a> &nbsp; / &nbsp; 
-                    <a href="/lads.txt" style="font-weight: 400">👊 Lads</a>
+                    <a href="/lads.txt" style="font-weight: 400">👊 Lads</a> &nbsp; / &nbsp; 
+                    <a href="/notes.txt" style="font-weight: 400">✏️ Notes</a>
                 </p>
             </div>
         </div>

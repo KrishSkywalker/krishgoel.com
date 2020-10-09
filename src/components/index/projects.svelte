@@ -86,7 +86,7 @@
                 tag3: "Future"
             },
             linkText: "📁 Documentation",
-            url: ""
+            url: "/projects/gyaanacademy"
         },
         {
             imageID: "vkyd",
@@ -100,7 +100,7 @@
                 tag3: "Social commerce"
             },
             linkText: "🌐 Website",
-            url: ""
+            url: "http://vkyd.in"
         },
         {
             imageID: "eyena",
@@ -114,7 +114,7 @@
                 tag3: "Hardware dev"
             },
             linkText: "📁 Documentation",
-            url: ""
+            url: "/projects/eyena"
         },
         {
             imageID: "lunatix",
@@ -128,7 +128,7 @@
                 tag3: "Idea pitch"
             },
             linkText: "📁 Documentation",
-            url: ""
+            url: "/projects/lunatix"
         },
         {
             imageID: "binary-box",
@@ -142,7 +142,7 @@
                 tag3: "Subscription Model"
             },
             linkText: "📁 Documentation",
-            url: "/projects/binaryBox"
+            url: "/projects/binarybox"
         },
         {
             imageID: "alexation",
@@ -332,7 +332,7 @@
     </div>
     <br>
     <br>
-    <p>You can check out all of my projects 
-        <a class="mono" href="/projects">@/projects</a>
+    <p>You can check out all of my projects @ 
+        <a class="mono" href="/projects"> /projects</a>
     </p>
 </div>
