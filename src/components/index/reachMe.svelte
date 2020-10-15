@@ -88,7 +88,7 @@
     <div class="small-screen">
         <div class="card" style="background-color: #000000">
             <div class="width-restriction">
-                <!-- <iframe class="spotify" src="https://open.spotify.com/embed/playlist/26Dig7gzJrw1Cqm8sgHI5f" width="100%" height="500px" frameborder="0" allowtransparency="true" allow="encrypted-media" style="border-radius: 10px"></iframe> -->
+                <iframe class="spotify" src="https://open.spotify.com/embed/playlist/26Dig7gzJrw1Cqm8sgHI5f" width="100%" height="500px" frameborder="0" allowtransparency="true" allow="encrypted-media" style="border-radius: 10px"></iframe>
             </div>
         </div>
         <div class="card">
@@ -145,7 +145,7 @@
             <div class="col-2">
                 <div class="card" style="background-color: #000000">
                     <div class="width-restriction">
-                        <!-- <iframe class="spotify" src="https://open.spotify.com/embed/playlist/26Dig7gzJrw1Cqm8sgHI5f" width="100%" height="500px" frameborder="0" allowtransparency="true" allow="encrypted-media" style="border-radius: 10px"></iframe> -->
+                        <iframe class="spotify" src="https://open.spotify.com/embed/playlist/26Dig7gzJrw1Cqm8sgHI5f" width="100%" height="500px" frameborder="0" allowtransparency="true" allow="encrypted-media" style="border-radius: 10px"></iframe>
                     </div>
                 </div>
             </div>
