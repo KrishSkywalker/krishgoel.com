@@ -24,6 +24,7 @@
 		align-items: center;
 		white-space: nowrap;
 		overflow-x: auto;
+		overflow-y:hidden;
 	}
 	nav #logo {
 		padding-right: 30px;
@@ -89,7 +90,7 @@
 			<a href="/projects">🌐 Projects</a>
 			<a href="/#repertoire">📄 Repertoire</a>
 			<a href="/experience">🎯 Experience</a>
-			<a href="/#reachMe">☎️ Reach me</a>
+			<a href="/reachme">☎️ Reach me</a>
 			<!-- <a on:click={() => animateScroll.scrollTo({element: '#blog', offset: -100})}>📝 Blog</a>
 			<a on:click={() => animateScroll.scrollTo({element: '#projects', offset: -100})}>🌐 Projects</a>
 			<a on:click={() => animateScroll.scrollTo({element: '#repertoire', offset: -100})}>📄 Repertoire</a>

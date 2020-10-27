@@ -57,7 +57,7 @@
                 tag3: "Scaling"
             },
             linkText: "🕓 Hold up m8",
-            url: ""
+            url: "/blog"
         },
         {
             title: "Where I think I am headed", 
@@ -69,7 +69,7 @@
                 tag3: "Startup"
             },
             linkText: "🕓 Again, hol' up bro",
-            url: ""
+            url: "/blog"
         }
 	];
 </script>

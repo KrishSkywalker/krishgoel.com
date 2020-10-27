@@ -116,7 +116,7 @@
                 tag3: "Hardware dev"
             },
             linkText: "📁 Documentation",
-            url: "/projects/eyena"
+            url: "https://krishgoel.herokuapp.com/projects/eyena"
         },
         {
             imageID: "",
@@ -144,7 +144,7 @@
                 tag3: "Idea pitch"
             },
             linkText: "📁 Documentation",
-            url: "/projects/lunatix"
+            url: "https://drive.google.com/drive/folders/1E7EJTsJhww2c5vz1DRLYnc9JRg6RynOU"
         },
         {
             imageID: "binary-box",
@@ -158,7 +158,7 @@
                 tag3: "Subscription Model"
             },
             linkText: "📁 Documentation",
-            url: "/projects/binaryBox"
+            url: "/projects/binarybox"
         },
         {
             imageID: "alexation",
