@@ -42,10 +42,7 @@
 </style>
 
 <script>
-    import Topnav from '../../components/common/topnav.svelte';
-
     let arrayOfTwo = [0, 1];
-    // let products = JSON.parse(fs.readFileSync('data/products.json', 'utf8'));
     let blogCards = [
 		{
             title: "My notes from 'The $100 Startup'", 
@@ -78,7 +75,6 @@
 	<title>Blog | krishgoel.com</title>
 </svelte:head>
 
-<Topnav />
 <br><br><br><br><br><br>
 
 <div class="width-restriction">

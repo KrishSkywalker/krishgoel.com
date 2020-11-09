@@ -54,8 +54,6 @@
 </style>
 
 <script>
-    import Topnav from '../../components/common/topnav.svelte';
-
     let arrayOfTwo = [0,1];
     let arrayOfFour = [0, 1, 2, 3];
     let experienceCards = [
@@ -199,7 +197,6 @@
 	<title>Experience | krishgoel.com</title>
 </svelte:head>
 
-<Topnav />
 <br><br><br><br><br><br>
 
 <div class="width-restriction">

@@ -81,14 +81,12 @@
 </style>
 
 <script>
-    import Topnav from '../../components/common/topnav.svelte';
 </script>
 
 <svelte:head>
 	<title>Reach Me | krishgoel.com</title>
 </svelte:head>
 
-<Topnav />
 <br><br><br><br><br><br>
 
 <div class="width-restriction">

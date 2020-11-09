@@ -1,5 +1,5 @@
 <script>
-	import Topnav from '../components/common/topnav.svelte';
+	// import Topnav from '../components/common/topnav.svelte';
 	import Intro from '../components/index/intro.svelte';
 	import Blog from '../components/index/blog.svelte';
 	import Projects from '../components/index/projects.svelte';
@@ -14,7 +14,7 @@
 	<title>Krish Goel | KrishSkywalker</title>
 </svelte:head>
 
-<Topnav />
+<!-- <Topnav /> -->
 <Intro />
 <div class="gradient yellow-orange" id="blog"></div>
 <Blog />
