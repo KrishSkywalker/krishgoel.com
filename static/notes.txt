@@ -1,0 +1,11 @@
+Hi, Idk why anyone would ever read this but if you're genuinely this vella go ahead.
+
+This website is built on the magical Svelte, Sapper and Vercel trilogy. The ability to deploy projects with such ease is absolutely unreal.
+
+The previous version of this page was built on Express.JS and deployed on Heroku, it can be seen at https://krishgoel.herokuapp.com (Changed it because it was slow)
+
+Even older version which never went into deployment can be seen at https://v0.krishgoel.com.
+
+Thanks you the open source community, the developers of Svelte, Vercel, Spotify, GitHub and obviously VS Code for making me fall in love with your products and services. 
+
+Cheers
