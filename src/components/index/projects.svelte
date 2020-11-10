@@ -156,7 +156,7 @@
                 tag3: "Home Automation"
             },
             linkText: "💻 Github Repository",
-            url: "https://github.com/KrishSkywalker/Alexation"
+            url: "https://github.com/KrishSkywalker/alexation"
         },
         {
             imageID: "",
@@ -170,7 +170,7 @@
                 tag3: "EDM"
             },
             linkText: "💻 Github Repository",
-            url: "https://github.com/KrishSkywalker/ArduinoDrumPads"
+            url: "https://github.com/KrishSkywalker/arduino-drum-pads"
         },
         {
             imageID: "",
