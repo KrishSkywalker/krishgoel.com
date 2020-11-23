@@ -5,6 +5,8 @@
 
 <main>
     <Topnav/>
-	<slot>
-    </slot>
+    <!-- <div class="width-restriction"> --> <!-- Add width-restriction to layout directly -->
+        <slot>
+        </slot>
+    <!-- </div> -->
 </main>

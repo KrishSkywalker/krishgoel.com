@@ -5,7 +5,7 @@
 	import Projects from '../components/index/projects.svelte';
 	import Repertoire from '../components/index/repertoire.svelte';
 	import Experience from '../components/index/experience.svelte';
-	import ReachMe from '../components/index/reachMe.svelte';
+	import ReachMe from '../components/common/reachMe.svelte';
 </script>
 
 <style></style>
