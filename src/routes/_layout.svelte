@@ -4,7 +4,7 @@
 
 <main>
     <Topnav/>
-    <br/><br/><br/><br/><br/><br/>
+    <br/><br/><br/><br/>
     <div class="width-restriction">
         <slot>
         </slot>
