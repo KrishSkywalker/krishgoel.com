@@ -1,76 +1,8 @@
-<style>
-    @media screen and (max-width: 600px) {
-        .large-screen, .mid-screen {
-            display: none
-        }
-    }
-    @media screen and (min-width: 600px) and (max-width: 800px) {
-        .small-screen, .large-screen {
-            display: none
-        }
-    }
-    @media screen and (min-width: 800px) {
-        .small-screen, .mid-screen {
-            display: none
-        }
-    }
-
-    .card {
-        padding: 0px;
-        padding-bottom: 30px;
-    }
-
-    .card img {
-        width: 100%;
-        padding-bottom: 20px
-    }
-
-    .card h6 {
-        font-weight: 400
-    }
-
-    .card a, a {
-        color: #3a4a4a;
-        border-bottom: 1.5px solid #ffffff;
-        transition: 0.2s;
-        padding-bottom: 5px;
-        font-size: 0.9rem
-    }
-    .card a:hover, a:hover {
-        border-bottom-color: #3a3a3a;
-    }
-
-    :global(body.dark-mode) .card {
-        background-color: #000000;
-        box-shadow: rgba(36, 36, 36, 0.89) 7px 7px 21px -10px;
-    }
-    :global(body.dark-mode) .card .tags .tag {
-        background-color: #ffffff00;
-        border: 2px solid #ffffff
-    }
-    :global(body.dark-mode) .card p a {
-        color: #ffffff
-    }
-    :global(body.dark-mode) .card a {
-        color: #ffffff;
-        border-bottom-color: #000000;
-    }
-    :global(body.dark-mode) .card a:hover {
-        border-bottom-color: #ffffff;
-    }
-    :global(body.dark-mode) p a {
-        color: #ffffff
-    }
-    :global(body.dark-mode) a {
-        color: #ffffff;
-        border-bottom-color: #3a3a3a;
-    }
-    :global(body.dark-mode) a:hover {
-        border-bottom-color: #ffffff;
-    }
-</style>
-
 <script>
+    let title= "Projects | krishgoel.com";
+    let description = "A detailed index of all the projects I have worked on so far. Hi, I'm Krish! A technophile and an engineering student from New Delhi.";
+    let url = "https://krishgoel.com/projects";
+
     let arrayOfTwo = [0,1];
     let arrayOfFour = [0, 1, 2, 3];
     let projectCards = [
@@ -86,7 +18,7 @@
                 tag3: "Future"
             },
             linkText: "📁 Documentation",
-            url: "/projects/gyaanacademy"
+            url: "https://krishgoel.herokuapp.com/projects/gyaanacademy"
         },
         {
             imageID: "vkyd",
@@ -156,7 +88,7 @@
                 tag3: "Subscription Model"
             },
             linkText: "📁 Documentation",
-            url: "/projects/binarybox"
+            url: "https://krishgoel.herokuapp.com/projects/binarybox"
         },
         {
             imageID: "alexation",
@@ -217,15 +149,31 @@
 	];
 </script>
 
+<style>
+    .projects .card {
+        padding-top: 0px;
+    }
+    .projects .card img{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+</style>
+
 <svelte:head>
-	<title>Projects | krishgoel.com</title>
+    <title>{title}</title>
+    <meta name="title" content="{title}" />
+    <meta name="description" content="{description}" />
+    <meta property="og:title" content="{title}" />
+    <meta property="og:url" content="{url}" />
+    <meta property="og:description" content="{description}" />
+    <meta name="twitter:title" content="{title}" />
+    <meta name="twitter:url" content="{url}" />
+    <meta name="twitter:description" content="{description}" />
 </svelte:head>
 
-<br><br><br><br><br><br>
-
-<div class="width-restriction">
+<section class="projects">
     <h1 class="mono">All of my projects</h1>
-    <p>🌐 A list of all the projects I have completed so far</p>
+    <p>🌐 A detailed index of all the projects I have worked on so far</p>
     
 	<!-- Mobile Screen Layout -->
 	<div class="small-screen">
@@ -365,6 +313,4 @@
             {/each}
         </div>
     </div>
-    <br>
-    <br>
-</div>
+</section>

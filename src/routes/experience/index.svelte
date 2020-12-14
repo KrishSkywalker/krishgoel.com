@@ -1,59 +1,8 @@
-<style>
-    @media screen and (max-width: 600px) {
-        .large-screen, .mid-screen {
-            display: none
-        }
-    }
-    @media screen and (min-width: 600px) and (max-width: 800px) {
-        .small-screen, .large-screen {
-            display: none
-        }
-    }
-    @media screen and (min-width: 800px) {
-        .small-screen, .mid-screen {
-            display: none
-        }
-    }
-
-    .card .progress-bar-container {
-        width: 100%;
-        border-radius: 10px;
-        height: 15px;
-        background-color: #969595;
-    }
-    .card .progress-bar {
-        position: relative;
-        top: 0;
-        border-radius: 10px;
-        height: 15px;
-    }
-    .card a {
-        border-bottom: 1.5px solid #ffffff;
-        transition: 0.2s;
-        padding-bottom: 5px;
-        font-size: 0.9rem
-    }
-    .card a:hover {
-        border-bottom-color: #3a3a3a;
-    }
-
-    :global(body.dark-mode) .card {
-        background-color: #000000;
-        box-shadow: rgba(36, 36, 36, 0.89) 7px 7px 21px -10px;
-    }
-    :global(body.dark-mode) .card p a {
-        color: #ffffff
-    }
-    :global(body.dark-mode) .card a {
-        color: #ffffff;
-        border-bottom-color: #000000;
-    }
-    :global(body.dark-mode) .card a:hover {
-        border-bottom-color: #ffffff;
-    }
-</style>
-
 <script>
+    let title= "Experience | krishgoel.com";
+    let description = "A compehensive list of all the things that I am proud of. Hi, I'm Krish! A technophile and an engineering student from New Delhi.";
+    let url = "https://krishgoel.com/experience";
+
     let arrayOfTwo = [0,1];
     let arrayOfFour = [0, 1, 2, 3];
     let experienceCards = [
@@ -194,12 +143,18 @@
 </script>
 
 <svelte:head>
-	<title>Experience | krishgoel.com</title>
+    <title>{title}</title>
+    <meta name="title" content="{title}" />
+    <meta name="description" content="{description}" />
+    <meta property="og:title" content="{title}" />
+    <meta property="og:url" content="{url}" />
+    <meta property="og:description" content="{description}" />
+    <meta name="twitter:title" content="{title}" />
+    <meta name="twitter:url" content="{url}" />
+    <meta name="twitter:description" content="{description}" />
 </svelte:head>
 
-<br><br><br><br><br><br>
-
-<div class="width-restriction">
+<section class="experience">
     <h1 class="mono">🎯 Experience</h1>
     
 	<!-- Mobile Screen Layout -->
@@ -261,5 +216,4 @@
             {/each}
         </div>
     </div>
-</div>
-<br><br><br>
+</section>

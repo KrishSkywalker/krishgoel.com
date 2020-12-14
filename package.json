@@ -12,7 +12,8 @@
     "compression": "^1.7.1",
     "polka": "next",
     "sirv": "^1.0.0",
-    "svelte-responsive-images": "^1.0.14"
+    "svelte-responsive-images": "^1.0.14",
+    "themer.js": "^1.0.0-beta.4"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",

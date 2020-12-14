@@ -1,12 +1,13 @@
 <script>
-	import Topnav from '../components/common/topnav.svelte';
+    import Topnav from '../components/topnav.svelte';
 </script>
-
 
 <main>
     <Topnav/>
-    <!-- <div class="width-restriction"> --> <!-- Add width-restriction to layout directly -->
+    <br/><br/><br/><br/><br/><br/>
+    <div class="width-restriction">
         <slot>
         </slot>
-    <!-- </div> -->
+    </div>
+    <br/><br/><br/><br/><br/>
 </main>

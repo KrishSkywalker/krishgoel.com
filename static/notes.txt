@@ -8,4 +8,13 @@ Even older version which never went into deployment can be seen at https://v0.kr
 
 Thanks you the open source community, the developers of Svelte, Vercel, Spotify, GitHub and obviously VS Code for making me fall in love with your products and services. 
 
+v7 [08.10.2020]
+- Shifted to Svelte + Vercel
+
+v7.1 [15.12.2020]
+- Centralized Code
+- Added /bigdonmegaladon
+- Redirected /projects/:project documentations to herokuapp
+- Eased light/dark switch
+
 Cheers

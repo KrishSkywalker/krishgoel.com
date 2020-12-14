@@ -4,36 +4,35 @@
 	src: url("fonts/Gilroy-ExtraBold.ttf");
 }
 
+:root {
+  --border-radius: 10px;
+}
+
 body {
 	font-family: Lato;
 	margin: 0;
-	padding: 0;
-  background-color: rgb(250, 250, 250);
-  color: #3a3a3a;
+    padding: 0;
+    background-color: var(--background);
+    color: var(--body);
 }
-
-.width-restriction {
-  width: 85%;
-  display: block;
-  margin: 0 auto;
+::selection {
+    background-color: rgb(255, 0, 140);
+    color: #ffffff;
 }
 
 /* Font sizing */
 h1, h1 a {
-	font-size: calc(1.355rem + 1.26vw);
-	font-family: Gilroy;
+  font-size: calc(1.355rem + 1.26vw);
 }
-
 @media (min-width: 1200px) {
   h1, h1 a {
-	  font-size: 2.3rem;
+    font-size: 2.3rem;
   }
 }
 
 h2, h2 a {
   font-size: calc(1.295rem + 0.54vw);
 }
-
 @media (min-width: 1200px) {
   h2, h2 a {
     font-size: 1.7rem;
@@ -43,7 +42,6 @@ h2, h2 a {
 h3, h3 a {
   font-size: calc(1.275rem + 0.3vw);
 }
-
 @media (min-width: 1200px) {
   h3, h3 a {
     font-size: 1.5rem;
@@ -58,44 +56,93 @@ h5, h5 a {
   font-size: 0.9rem;
 }
 
-h6, h6 a {
-  font-size: 1rem;
+h6 , h6 a {
+    font-size: 1rem;
 }
 
 p, p a {
-	font-size: 0.93rem;
-	margin-top: 0;
-	margin-bottom: 0;
+  font-size: 0.9rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 23px
 }
 
 p a {
-	font-weight: bold
+    font-weight: 600;
 }
 
+/* Font family */
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
-  margin-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Gilroy;
 }
 
+/* Font styling */
 a {
-	text-decoration: none;
+    text-decoration: none;
+    color: var(--body)
 }
-
-::selection {
-  background-color: rgb(255, 0, 140);
-  color: #ffffff;
-}
-
 .mono {
-  font-family: Space Mono;
+    font-family: Space Mono;
 }
-
 .bold {
-  font-weight: bold;
+    font-weight: bold;
+}
+.center {
+    text-align: center;
 }
 
-.center {
-  text-align: center;
+
+/* All images */
+img {
+    width: 100%;
+    border-radius: var(--border-radius);
+    margin-bottom: 30px;
+}
+
+.width-restriction {
+    width: 90%;
+    margin: 0 auto
+}
+
+/* Columns and screen definitions*/
+.col-container {
+    width: 100%;
+    display: inline;
+}
+
+.col-2 {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+.col-4 {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.small-screen, .mid-screen, .large-screen {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .small-screen {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 850px) {
+    .mid-screen {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 851px) {
+    .large-screen {
+        display: block;
+    }
 }
 
 /* Gradients defined */
@@ -129,72 +176,70 @@ a {
   background-image: linear-gradient(90deg, #0df5ff 0%, #48f583 100%);
 }
 
-/* Column definition */
-.col-container {
-  display: flex;
-  width: 100%
-}
-.col-2 {
-  flex: 50%;
-  text-align: left
-}
-.col-4 {
-  flex: 25%;
-  text-align: left
-}
-
-/* Card styling */
+/* Cards */
 .card {
-  width: 95%;
-  border-radius: 10px;
-  transition: 0.2s;
-  border: none;
-  padding: 30px 0px;
-  margin: 0 auto;
-  margin-top: 30px;
-  /* margin-right: 20px; */
-  background-color: #ffffff;
-  box-shadow: 7px 7px 21px -10px rgba(153,153,153,0.89);
+    width: 95%;
+    border: none;
+    padding: 30px 0px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: var(--card-background);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
 }
-.card h2 {
-  font-family: Gilroy
+.card .width-restriction {
+    width: 85%
 }
 .card h6 {
-  margin: 10px 0px;
-  font-family: Lato;
-  font-size: 0.9rem;
+    font-family: Lato;
+    font-size: 0.9rem;
+    margin: 10px 0px;
 }
 .card p {
-  line-height: 23px;
-  margin-top: 5px;
-  margin-bottom: 10px;
-}
-.card a, .card p a {
-  color: #3a3a3a
+    line-height: 23px;
+    font-size: 0.9rem;
+    color: var(--body);
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 .card .tags {
-  display: inline-block;
-  cursor: default;
+    display: inline-block;
+    cursor: default;
 }
 .card .tags .tag {
-  display: inline-block;
-  padding: 0px 10px;
-  border-radius: 5px;
-  margin-right: 5px;
-  margin-bottom: 7px;
-  transition: 0.2s;
-  background-color: rgba(0,0,0,0.03);
-  border: 2px solid rgba(0,0,0,0.1)
+    display: inline-block;
+    padding: 0px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 7px;
+    transition: 0.2s;
+    background-color: var(--tag-background);
+    border: 2px solid var(--tag-outline)
 }
 .card .tags .tag p {
-  font-size: 0.7rem;
-  margin-top: 0;
-  margin-bottom: 0;
+    font-size: 0.7rem;
+    margin-top: 0;
+    margin-bottom: 0;
 }
-.card img {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+.card a {
+    border-bottom: 1px solid rgba(0,0,0,0);
+    transition: 0.2s;
+    padding: 10px;
+    font-weight: 400;
 }
-.card h4 {
-  font-family: Lato;
+
+.card a:hover {
+    border-bottom: 1px solid var(--body)
+}
+.card .progress-bar-container {
+    width: 100%;
+    border-radius: 10px;
+    height: 15px;
+    background-color: #969595;
+}
+.card .progress-bar {
+    position: relative;
+    top: 0;
+    border-radius: 10px;
+    height: 15px;
 }
