@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/krishskywalker
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://krishgoel.com
+  * I am krishskywalker (https://keybase.io/krishskywalker) on keybase.
+  * I have a public key ASDLAlwzmeMU_kaNu82xVqYXycRzR52U4IyRyXhr0-On9Ao
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120cb025c3399e314fe468dbbcdb156a617c9c473479d94e08c91c9786bd3e3a7f40a",
+      "host": "keybase.io",
+      "kid": "0120cb025c3399e314fe468dbbcdb156a617c9c473479d94e08c91c9786bd3e3a7f40a",
+      "uid": "b9536903895ff068b105f55f4fba8a19",
+      "username": "krishskywalker"
+    },
+    "merkle_root": {
+      "ctime": 1608102785,
+      "hash": "1af4b09236da42b178ca6a530c9597d8e99eff1080bc91a4fbe6188ddb9ea637f92cc3e9a0bdaeeca215e5ec1165757d456a0a55c46486b20e7b5fe93979c3b9",
+      "hash_meta": "ad8311ee0eb8699edd4eaea076b27f4914bd6aa1c2e80fe88680ef4b3ecbd2dd",
+      "seqno": 18415242
+    },
+    "service": {
+      "entropy": "ShSittWYYITdSK5NO8h0foEf",
+      "hostname": "krishgoel.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1608102865,
+  "expire_in": 504576000,
+  "prev": "12c1461399bb6ba83170f0a2ad037f145c7848ce3ebc8103437ff1e316187d34",
+  "seqno": 4,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgywJcM5njFP5GjbvNsVamF8nEc0edlOCMkcl4a9Pjp/QKp3BheWxvYWTESpcCBMQgEsFGE5m7a6gxcPCirQN/FFx4SM4+vIEDQ3/x4xYYfTTEIEunFVqYOT7mNS0k8ttskXTBFPj1KRalF+UIUSEZL9szAgHCo3NpZ8RAzZ8GLFjFKwFYxDDiFCxqtcP4HPed3vpkkqqmHuAYXkuL2k57FjzdINVe/onctYDiqZ1vuHiXxY+j+H/IUy2LA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEINaUOq8TnxezTX2M9Nxt8XHVmh5YceiSO/Qv0tiBK1iYo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/krishskywalker
+
+==================================================================
