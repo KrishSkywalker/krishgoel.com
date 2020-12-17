@@ -32,7 +32,7 @@
         },
         {
             name: 'Jaat',
-            pretext: `ab mein kya hi bolu? We got dundun by the same locality people xD. I lost my teachers' respect and virginity after meeting you at TERI. You owe me a relationship. c u @ nsp. Hindustani Bhau zindabaad`,
+            pretext: `ab mein kya hi bolu? We got dun diddy did done by the same locality people xD. I lost my teachers' respect and virginity after meeting you at TERI. You owe me a relationship. c u @ nsp. Hindustani Bhau zindabaad`,
             linkText: ``,
             url: ''
         },
@@ -53,15 +53,23 @@
             pretext: 'Not going to say anything because then this will be like our WhatsApp since Feb, all green on my side, no grey. I like your family more than you 😤. Going to make you play Pysch! with more awkward people this time. Might as well smash your thicc ass sometime.',
             linkText: '',
             url: ''
+        },
+        {
+            name: 'The other Kartik',
+            pretext: '"🍻✊❤️", "ngl feeling kinda left out", "Bro, make a website" 😡 ctelb (ABC +1)',
+            linkText: '',
+            url: ''
         }
-        // {
-        //     name: 'The other Kartik',
-        //     pretext: '',
-        //     linkText: '',
-        //     url: ''
-        // }
     ];
-    // Raghav Deswal Srivastva Jyotir Aashim Omu Kattu KG Kanudia
+    function shuffleArray(array) {
+        for (var i = array.length - 1; i > 0; i--) {
+            var j = Math.floor(Math.random() * (i + 1));
+            var temp = array[i];
+            array[i] = array[j];
+            array[j] = temp;
+        }
+    }
+    shuffleArray(bois);
 </script>
 
 <svelte:head>

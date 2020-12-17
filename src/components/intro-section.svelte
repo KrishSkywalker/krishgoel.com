@@ -1,13 +1,4 @@
 <style>
-    .intro-section p a {
-        padding-bottom: 5px;
-        border-bottom: 1.5px solid rgba(0,0,0,0);
-        transition: 0.2s;
-    }
-    .intro-section p a:hover {
-        border-bottom: 1.5px solid var(--body)
-    }
-
     @media screen and (max-width: 850px) {
         .small-screen {
             display: block;

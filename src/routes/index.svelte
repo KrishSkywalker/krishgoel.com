@@ -2,7 +2,7 @@
     import Intro from '../components/intro-section.svelte'
     import Blog from '../components/blog-section.svelte'
     import Projects from '../components/projects-section.svelte'
-    import Repertoire from '../components/repertoire-section.svelte'
+    // import Repertoire from '../components/repertoire-section.svelte'
     import ReachMe from '../components/reachme-section.svelte'
 
     let title="Krish Goel | KrishSkywalker";
@@ -29,6 +29,6 @@
 <div class="gradient orange-purple" id="projects"></div>
 <Projects />
 <div class="gradient purple-blue" id="repertoire"></div>
-<Repertoire />
-<div class="gradient blue-fusia" id="experience"></div>
+<!-- <Repertoire /> -->
+<!-- <div class="gradient blue-fusia" id="experience"></div> -->
 <ReachMe />
