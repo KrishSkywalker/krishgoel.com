@@ -84,12 +84,14 @@
     <meta name="twitter:description" content="{description}" />
 </svelte:head>
 
+<img src="https://i.kym-cdn.com/entries/icons/original/000/032/196/apes.jpg"/>
+
 <h1>🍻 This one's fr da Sanskriti dons</h1>
-<p>Idk when you'll read this but if it's cuz of the yearbook, might as well pop in and say a hi. Just know that if you're mentioned here you should really go kys cuz you spent your time interacting with me in school but this also means you took away a portion of my time and that isn't something I regret giving to any one of you here. ly ❤️</p>
+<p>If you're here because of the yearbook, you need to get better shit to do but you might as well pop in and say a hi. If you're mentioned here you should really go kys 'cause you spent your time interacting with me in school but this also means you took away a portion of my time and that isn't something I regret giving to any one of you here. ly ❤️</p>
 <br/>
 <p class="mono">Timestamp: 13th Dec 2020 at 01:59 hrs</p>
 <br/>
-<p>Also, I'm working on an yearbook app ting rn so if going to 
+<p>Also, I'm working on an yearbook app ting right now so if going to 
     <a href="hhtps://yearbook.krishgoel.com" class="mono">yearbook.krishgoel.com</a> 
     doesn't give you an error, go and make a profile there.
 </p>
