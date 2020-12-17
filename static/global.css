@@ -96,6 +96,7 @@ a:hover {
 
 .mono {
     font-family: Space Mono;
+    font-weight: 400;
 }
 .bold {
     font-weight: bold;
