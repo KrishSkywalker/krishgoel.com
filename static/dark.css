@@ -8,4 +8,5 @@
     --box-shadow: 7px 7px 21px -10pxrgba(36, 36, 36, 0.89) ;
     --tag-outline: rgba(180, 180, 180, 0.397);
     --tag-background: rgba(202, 202, 202, 0.03);
+    --link-underline: #696969;
 }
