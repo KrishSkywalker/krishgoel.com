@@ -38,7 +38,7 @@
         },
         {
             name: 'Bengali',
-            pretext: 'Just keywords for this Rosogulla: Smaaash, Amartya Jayanti, Dard, BinaryBox, LunatiX, Gyaan Academy, MINET, Exun, PE, "Bhaiya, flowers hai?", HoeDesign, PB, Nepotism run-d, DTO 😂',
+            pretext: 'Just keywords for this Rosogulla Boi: Smaaash, Amartya Jayanti, Dard, BinaryBox, LunatiX, Gyaan Academy, MINET, Exun, PE, "Bhaiya, flowers hai?", HoeDesign, PB, Nepotism run-d, DTO 😂',
             linkText: '',
             url: ''
         },
@@ -56,7 +56,7 @@
         },
         {
             name: 'The other Kartik',
-            pretext: '"🍻✊❤️", "ngl feeling kinda left out", "Bro, make a website" 😡 ctelb (ABC +1)',
+            pretext: '"🍻✊❤️", "ngl feeling kinda left out", "Bro, make a website" 😡 ctelb (ABC +1). Also, you gotta stop picking at me bro 😛',
             linkText: '',
             url: ''
         }
@@ -92,7 +92,7 @@
 <p class="mono">Timestamp: 13th Dec 2020 at 01:59 hrs</p>
 <br/>
 <p>Also, I'm working on an yearbook app ting right now so if going to 
-    <a href="hhtps://yearbook.krishgoel.com" class="mono">yearbook.krishgoel.com</a> 
+    <a href="https://yearbook.krishgoel.com" class="mono">yearbook.krishgoel.com</a> 
     doesn't give you an error, go and make a profile there.
 </p>
 <br/><br/>

@@ -30,7 +30,7 @@
                     Web development and programming being my métier, I’m currently learning how to teach the machines to think autonomously and working on a smart streetwear fashion startup.
                     <br>
                     <br>
-                    Bricolage is my thing and I spent my last 2 summers teaching younger students the intricacies of coding. Looking at the bigger picture, I aspire to develop ‘smarter’ energy sources and solve global-ecological problems with the lines I type.
+                    Bricolage is my thing and I spent my last 2 summers teaching younger students the intricacies of coding. Looking at the bigger picture, I aspire to develop ‘smarter’ energy sources and achieve sustainable development goals with the lines I type.
                     <br>
                     <br>
                     I recently found my passion in entrepreneurship and I&#39;m currently reading <a href="https://www.goodreads.com/book/show/12605157-the-100-startup" class="svelte-1340r0r">The $100 Startup by Chris Guillebeau</a>.
