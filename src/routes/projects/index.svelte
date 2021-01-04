@@ -88,7 +88,7 @@
                 tag3: "Subscription Model"
             },
             linkText: "📁 Documentation",
-            url: "https://krishgoel.herokuapp.com/projects/binarybox"
+            url: "/projects/binarybox"
         },
         {
             imageID: "alexation",

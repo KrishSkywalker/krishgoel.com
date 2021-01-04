@@ -94,6 +94,14 @@ a:hover {
     color: #fcfcfc;
 }
 
+hr {
+  width: 90%;
+  margin: 30px auto;
+  height: 1px;
+  border: none;
+  background-color: var(--body);
+}
+
 .mono {
     font-family: Space Mono;
     font-weight: 400;
