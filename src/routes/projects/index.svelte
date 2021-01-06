@@ -46,7 +46,7 @@
                 tag3: "Hardware dev"
             },
             linkText: "📁 Documentation",
-            url: "https://krishgoel.herokuapp.com/projects/eyena"
+            url: "http://eyena.krishgoel.com"
         },
         {
             imageID: "",

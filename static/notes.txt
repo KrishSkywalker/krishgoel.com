@@ -17,4 +17,9 @@ v7.1 [15.12.2020]
 - Redirected /projects/:project documentations to herokuapp
 - Eased light/dark switch
 
+v7.2 [06.01.2020]
+- Added 'What I'm doing right now?'
+- Added "/projects/binarybox"
+- Added "eyena.krishgoel.com"
+
 Cheers
