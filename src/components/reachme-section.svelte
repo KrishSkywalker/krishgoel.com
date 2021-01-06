@@ -23,11 +23,32 @@
             <div class="col-2">
                 <div class="card" style="background-color: #000000">
                     <div class="width-restriction">
-                        <iframe class="spotify" src="https://open.spotify.com/embed/playlist/26Dig7gzJrw1Cqm8sgHI5f" width="100%" height="500px" frameborder="0" allowtransparency="true" allow="encrypted-media" style="border-radius: 10px" title="Spotify playlist embed"></iframe>
+                        <iframe class="spotify" src="https://open.spotify.com/embed/playlist/26Dig7gzJrw1Cqm8sgHI5f" width="100%" height="600px" frameborder="0" allowtransparency="true" allow="encrypted-media" style="border-radius: 10px" title="Spotify playlist embed"></iframe>
                     </div>
                 </div>
             </div>
             <div class="col-2">
+                <div class="card">
+                    <div class="width-restriction">
+                        <h2>🕤 What I 'm doing right now</h2>
+                        <p>
+                            This is a small experimental venture wherein I just talk about my recent content consumption or anything really.
+                        </p>
+                        <p>
+                            📜 I&#39;m currently reading 
+                            <a href="https://www.goodreads.com/book/show/12605157-the-100-startup" class="svelte-1340r0r">The $100 Startup by Chris Guillebeau</a> 
+                            and if that's something you're interested in, feel free to check out 
+                            <a href="/books/100dollarstartup">my notes from the book</a>.
+                        </p>
+                        <p>
+                            Everything else can be found @ <a class="mono" href="/blog">/blog</a> under the 'What I'm doing right now' Section. <span class="italic">This is a work in progress, expect some gaps xD.</span>
+                        </p>
+                        <!-- <br/>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar blue-green" style="width: 26%"></div>
+                        </div> -->
+                    </div>
+                </div>
                 <div class="card">
                     <div class="width-restriction">
                         <p>Feel free to hit me up on any of these platforms</p>
@@ -81,6 +102,27 @@
         <div class="card" style="background-color: #000000">
             <div class="width-restriction">
                 <iframe class="spotify" src="https://open.spotify.com/embed/playlist/26Dig7gzJrw1Cqm8sgHI5f" width="100%" height="500px" frameborder="0" allowtransparency="true" allow="encrypted-media" style="border-radius: 10px" title="Spotify playlist embed"></iframe>
+            </div>
+        </div>
+        <div class="card">
+            <div class="width-restriction">
+                <h2>🕤 What I 'm doing right now</h2>
+                <p>
+                    This is a small experimental venture wherein I just talk about my recent content consumption or anything really.
+                </p>
+                <p>
+                    📜 I&#39;m currently reading 
+                    <a href="https://www.goodreads.com/book/show/12605157-the-100-startup" class="svelte-1340r0r">The $100 Startup by Chris Guillebeau</a> 
+                    and if that's something you're interested in, feel free to check out 
+                    <a href="/books/100dollarstartup">my notes from the book</a>.
+                </p>
+                <p>
+                    Everything else can be found @ <a class="mono" href="/blog">/blog</a> under the 'What I'm doing right now' Section. <span class="italic">This is a work in progress, expect some gaps xD.</span>
+                </p>
+                <!-- <br/>
+                <div class="progress-bar-container">
+                    <div class="progress-bar blue-green" style="width: 26%"></div>
+                </div> -->
             </div>
         </div>
         <div class="card">
