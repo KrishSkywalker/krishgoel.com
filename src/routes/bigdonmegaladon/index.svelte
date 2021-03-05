@@ -60,6 +60,18 @@
             pretext: '"🍻✊❤️", "ngl feeling kinda left out", "Bro, make a website" 😡 ctelb (ABC +1). Also, you gotta stop picking at me bro 😛',
             linkText: '',
             url: ''
+        },
+        {
+            name: 'Choubey',
+            pretext: `Hello dearest Choubey thx regards. I know I donot matter but it's ok 🙁🙁. Thank you for 24x7 validation, Pitampura is a shit hole and the October of '19 was a blast. Vilen party scene after boards 🍻. See you at IIT.`,
+            linkText: '',
+            url: ''
+        },
+        {
+            name: 'Ridhi',
+            pretext: `Hi sexxyyyyyyy! Foookin "Ma'am, I'd cure me if I were you" time lessago. See you again in 789 months cuz that's how calling works. BYE`,
+            linkText: '',
+            url: ''
         }
     ];
     function shuffleArray(array) {
@@ -88,7 +100,7 @@
 <img src="https://i.kym-cdn.com/entries/icons/original/000/032/196/apes.jpg"/>
 
 <h1>🍻 This one's fr da Sanskriti dons</h1>
-<p>If you're here because of the yearbook, you need to get better shit to do but you might as well pop in and say a hi. If you're mentioned here you should really go kys 'cause you spent your time interacting with me in school but this also means you took away a portion of my time and that isn't something I regret giving to any one of you here. ly ❤️</p>
+<p>If you're here because of the yearbook, you need to get better shit to do. If you're mentioned here you should really go kys 'cause you spent your time interacting with me in school but this also means you took away a portion of my time and that isn't something I regret giving to any one of you here. ly ❤️. sorryimbent</p>
 <br/>
 <p class="mono">Timestamp: 13th Dec 2020 at 01:59 hrs</p>
 <br/>
