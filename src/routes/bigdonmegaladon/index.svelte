@@ -27,7 +27,7 @@
 
         {
             name: 'Kattu babes',
-            pretext: `You already read this so I had to fkn change it anyways, Idk what I ever did to you so please stop bullying my ass. If you choose not to, it's time for the 7326473th 3-month body building bet. Anyways m8, I am 100% fuck-reservation-gang and irrespective of however much you live in Dwarka, ❤️. Aur bhai, itna padhke kaya jayega? thodidesigningseekhlepuraallovertheplacedesignthatera.`,
+            pretext: `You already read this so I had to fkn change it anyways, Idk what I ever did to you so please stop bullying my ass. If you choose not to, it's time for the 7326473th 3-month body building bet. Anyways m8, I am 100% fuck-reservation-gang and irrespective of however much you live in Dwarka, ❤️. Aur bhai, itna padhke kaha jayega? thodidesigningseekhlepuraallovertheplacedesignthatera.`,
             linkText: '',
             url: ''
         },
