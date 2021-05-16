@@ -3,6 +3,20 @@
     let arrayOfFour = [0, 1, 2, 3];
     let projectCards = [
 		{
+            imageID: "covaid",
+            title: "CovAID", 
+            date: "April 2021",
+            type: "🆘 Emergency service",
+            pretext: "4 friends and I founded CovAID to provide personally verified leads to all COVID-19 resources in real-time through brute-force calling",
+            tags: {
+                tag1: "COVID-19",
+                tag2: "Non-Profit",
+                tag3: "SOS Service"
+            },
+            linkText: "🌐 Website",
+            url: "https://covaid.vercel.app"
+        },
+        {
             imageID: "gyaan-academy",
             title: "The Gyaan Academy", 
             date: "September 2020",
